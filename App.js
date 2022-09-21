@@ -1,3 +1,6 @@
+/**
+ * @author Man Nok PUN (301269138)
+ */
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, TextInput, Switch } from 'react-native';
 import React from 'react';
