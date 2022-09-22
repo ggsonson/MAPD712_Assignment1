@@ -12,8 +12,8 @@ export default function App() {
 
   const onChangeUnit = () => {
     setIsImperialUnit(isImperialUnit => !isImperialUnit)
-    setHeight((isImperialUnit ? height * 2.54  :height / 2.54).toString())
-    setWeight((isImperialUnit ? weight /2.2 : weight * 2.2).toString())
+    setHeight((isImperialUnit ? height * 2.54  :height / 2.54).toFixed(2).toString())
+    setWeight((isImperialUnit ? weight /2.2 : weight * 2.2).toFixed(2).toString())
   };
 
   function getBmi(){
